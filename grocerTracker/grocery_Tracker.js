@@ -3,7 +3,7 @@ let grocery2;
 let grocery3;
 
 function totalAmount() {
-    gorcery1 = parseFloat(document.getElementById('grocery1').value);
+    grocery1 = parseFloat(document.getElementById('grocery1').value);
     grocery2 = parseFloat(document.getElementById('grocery2').value);
     grocery3 = parseFloat(document.getElementById('grocery3').value);
 
