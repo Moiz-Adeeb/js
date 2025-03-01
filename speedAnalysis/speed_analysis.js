@@ -1,4 +1,4 @@
-let testText= "The quick brown fox jumps over the lazy dog.";
+let testText = "The quick brown fox jumps over the lazy dog.";
 let startTime, endTime;
 
 function startTest() {
@@ -38,14 +38,13 @@ function endTest() {
 
     // display the results
     var outputDiv = document.getElementById("output");
-    outputDiv.innerHTML = "<h2>Typing Test Results:</h2>" + 
-    "<p>Words Typed: " + typedWords + "</p>" +
-    "<p>Time Elapsed: " + timeElapsed.toFixed(2) + "seconds </p>" +
-    "<p>Words Per Minute (WPM) : " + wpm + "</p>";
+    outputDiv.innerHTML = "<h2>Typing Test Results:</h2>" +
+        "<p>Words Typed: " + typedWords + "</p>" +
+        "<p>Time Elapsed: " + timeElapsed.toFixed(2) + "seconds </p>" +
+        "<p>Words Per Minute (WPM) : " + wpm + "</p>";
 
     // reset the button
     var button = document.getElementById("btn");
     button.innerHTML = "Start Test";
     button.onclick = startTest;
-
 }
